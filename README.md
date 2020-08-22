@@ -32,3 +32,9 @@ yarn start
 ```
 
 Last command install all dependencies, builds and optimizes code and starts server on `http://localhost:3000`.
+
+## P.S.
+
+I have created start page for all products with path `/`. There you can choose products to buy and navigate to basket (`/cart` page).
+
+![Home page](images/start-page.png)
