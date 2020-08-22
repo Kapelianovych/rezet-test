@@ -1,0 +1,16 @@
+@import './colors.css';
+@import './reset.css';
+@import './common.css';
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+.app-body {
+  flex: 1;
+  padding: 1em;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}

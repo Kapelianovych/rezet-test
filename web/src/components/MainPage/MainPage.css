@@ -1,0 +1,25 @@
+:root {
+  --items-gap: 1.5em;
+}
+
+.main-page {
+  text-align: center;
+}
+
+.main-page .products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-items: center;
+  gap: var(--items-gap);
+  grid-auto-flow: dense;
+}
+
+.main-page .products.skeleton {
+  justify-items: unset; /* This property doesn't allow Skeleton to be rendered. */
+}
+
+@media screen and (min-width: 767px) {
+  .main-page .products .product-item:nth-child(7n) {
+    grid-row: span 2;
+  }
+}

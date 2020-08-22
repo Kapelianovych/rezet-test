@@ -1,0 +1,22 @@
+.cart-page .no-products-to-buy {
+  text-align: center;
+}
+
+.cart-page .buy-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-page .buy-form .common-price {
+  align-self: flex-end;
+  font-weight: 500;
+  margin-bottom: .7em;
+}
+
+.cart-page .buy-form .common-price .currency {
+  margin-left: 0.1em;
+}
+
+.cart-page .buy-form .buy-btn {
+  align-self: flex-end;
+}

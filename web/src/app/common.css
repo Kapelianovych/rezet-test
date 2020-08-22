@@ -1,0 +1,21 @@
+.btn {
+  padding: .5em 1.5em;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: .3s;
+  background: var(--light-gray);
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.btn:disabled {
+  color: var(--gray);
+  cursor: not-allowed;
+}
+
+.btn:disabled:hover {
+  transform: scale(1);
+}

@@ -1,0 +1,13 @@
+.basket-container {
+  display: flex;
+  align-items: center;
+}
+
+.basket-container .products-count {
+  margin-right: .5em;
+  color: var(--red);
+}
+
+.basket-container .basket {
+  font-size: 1.25rem;
+}
