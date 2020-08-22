@@ -13,7 +13,7 @@
     "join": "yarn clean; yarn move:server; yarn move:web",
     "start": "yarn build; cd build; node ./bin/www",
     "clean": "mkdir -p build; rm -rf build/*",
-    "build": "yarn build:web; yarn build:server; yarn join",
+    "build": "yarn install; yarn build:web; yarn build:server; yarn join",
     "move:web": "cp -r web/build/* build/",
     "build:web": "yarn workspace web build",
     "move:server": "cp -r server/build/* build/; mkdir -p build/bin; cp -r server/bin/* build/bin/",
