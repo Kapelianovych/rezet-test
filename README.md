@@ -31,4 +31,4 @@ And then:
 yarn start
 ```
 
-Last command builds and optimizes code and starts server on `http://localhost:3000`.
+Last command install all dependencies, builds and optimizes code and starts server on `http://localhost:3000`.
